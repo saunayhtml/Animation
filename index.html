@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+      body {
+            background-color: black;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+
+        }
+        .text {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .text span {
+            animation: glow 3.5s ease infinite;
+        
+        }
+        .text-span:nth-child(2) {
+            animation-delay: 0.0s;
+        }
+        .text-span:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+        .text-span:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+        .text-span:nth-child(5) {
+            animation-delay: 0.6s;
+        }
+         @keyframes glow {
+            0%, 100% {
+                color: rgb(255, 192, 225);
+                text-shadow: 0 0 25px aqua, 0 0 50px aqua, 0 0 100px aqua, 0 0 25ps aqua;
+            }
+            20%, 90% {
+                color: rgb(177, 226, 43);
+                tex-shadow: none;
+            }
+            
+        }
+        
+           
+            
+    </style>
+
+</head>
+<body>
+    <div class="text">
+        <span>I</span>
+        <span>'</span>
+        <span>M</span>   
+    </div>
+
+    <div class="text">
+        <span>S</span>
+        <span>T</span>
+        <span>I</span>
+        <span>L</span>
+        <span>L</span>
+    </div>
+
+    <div class="text">
+        <span>H</span>
+        <span>E</span>
+        <span>R</span>
+        <span>E</span>
+    </div>
+
+
+
+
+
+</body>
+</html>
